@@ -1,0 +1,21 @@
+/* font */
+// Noto Sans KR
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap");
+
+// Nanum Myeongjo
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
+/* variable */
+$noto: "Noto Sans KR", sans-serif;
+$nanum: "Nanum Myeongjo", serif;
+
+$fw_l: 300;
+$fw_r: 400;
+$fw_b: 700;
+$fw_bl: 800;
+
+$menu: #384d33;
+$sub_menu: #036535;
+$text: #555;
+$sub_text: #444;
+$green: #00561f;

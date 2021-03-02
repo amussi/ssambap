@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/* sub pages 공통 */
+.container .sub_visual {
+  background: url(../img/sub_bg02.jpg) no-repeat;
+  background-size: cover;
+  height: 264px;
+}
+
+.container .sub_visual p {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 58px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 264px;
+}
+
+.container .inner.sub {
+  padding: 70px 10px 100px;
+}
+
+.container .sub_content .con_tit {
+  font-size: 46px;
+  font-weight: 700;
+  color: #036535;
+  font-family: "Nanum Myeongjo", serif;
+  text-align: center;
+  padding-bottom: 18px;
+  background: url(../img/menu_bg.jpg) no-repeat;
+  background-position: bottom;
+  margin-bottom: 30px;
+}
+
+.container .sub_content .con_txt {
+  font-size: 18px;
+  color: #555;
+}
+
+/* 매장안내 */
+.container.store .info select {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 140px;
+  height: 38px;
+  font-size: 15px;
+  color: #999;
+}
+
+.container.store .info select + select {
+  margin-left: 15px;
+}
+
+.container.store .info input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 80%;
+  height: 38px;
+  font-size: 15px;
+  color: #999;
+  padding: 0 10px;
+}
+
+.container.store .info .info_search {
+  border: 1px solid #d0d0d0;
+  margin-top: 60px;
+  padding: 27px 44px 24px;
+}
+
+.container.store .info .info_search div {
+  display: inline-block;
+}
+
+.container.store .info .info_search span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444444;
+  margin-right: 15px;
+}
+
+.container.store .info .info_search .search_area {
+  width: 40%;
+}
+
+.container.store .info .info_search .search_area .select_box {
+  width: 80%;
+}
+
+.container.store .info .info_search .search_store {
+  width: 60%;
+  float: right;
+}
+
+.container.store .info .info_result .result_caption {
+  margin: 20px 0 15px;
+}
+
+.container.store .info .info_result .result_table p:first-child {
+  background-color: #f8f8f8;
+  border-top: 2px solid #d0d0d0;
+}
+
+.container.store .info .info_result .result_table p + p {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.container.store .info .info_result .result_table span {
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 0;
+  display: inline-block;
+  color: #888888;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container.store .info .info_result .result_table span:nth-child(1) {
+  width: 13%;
+}
+
+.container.store .info .info_result .result_table span:nth-child(2) {
+  width: 16%;
+}
+
+.container.store .info .info_result .result_table span:nth-child(3) {
+  width: 45%;
+}
+
+.container.store .info .info_result .result_table span:nth-child(4) {
+  width: 15%;
+}
+
+.container.store .info .info_result .result_table span:nth-child(5) {
+  width: 9%;
+}
+
+.container.store .info .info_result .result_table span + span {
+  border-left: 1px solid #d4d4d4;
+}
+
+/* 창업안내 */
+.container.franchise .sub_visual {
+  background: url(../img/sub_bg03.jpg) no-repeat;
+  background-size: cover;
+  height: 264px;
+}
+
+.container.franchise .sub_content._1 .con_txt {
+  position: relative;
+  padding-left: 15px;
+  margin-left: 150px;
+}
+
+.container.franchise .sub_content._1 .con_txt::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 2px;
+  background: #196735;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.container.franchise .procedure {
+  margin: 80px 0;
+  padding: 0 150px;
+}
+
+.container.franchise .procedure li {
+  display: inline-block;
+  width: 32%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.container.franchise .procedure li::after {
+  background: url(../img/pro_arrow01.png);
+  width: 20px;
+  height: 20px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 62px;
+  right: -10px;
+}
+
+.container.franchise .procedure li:nth-child(3n)::after {
+  display: none;
+}
+
+.container.franchise .procedure li p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 400;
+  color: #444;
+  padding: 15px 0 10px;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.container.franchise .procedure li p:nth-child(3) {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.container.franchise .condition {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container.franchise .condition li {
+  width: calc(100% / 3 - 10px);
+  display: inline-block;
+  vertical-align: top;
+  background: #fafafa;
+  padding: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container.franchise .condition li button {
+  border: 1px solid #1d6939;
+  background: #1d6939;
+  color: #fff;
+  width: 150px;
+  padding: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.container.franchise .condition li button:hover {
+  background-color: #fff;
+  color: #1d6939;
+}
+
+.container.franchise .condition p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444;
+  margin: 20px 0 14px;
+}
+
+.container.franchise .condition p:nth-child(n + 3) {
+  font-size: 14px;
+  color: #888;
+  text-align: left;
+  line-height: 22px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.container.franchise .condition p:nth-child(n + 3)::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 1px;
+  background: #888;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+/* 모바일 전환 */
+@media all and (max-width: 1024px) {
+  .container.store .info select {
+    width: 40%;
+  }
+  .container.store .info select + select {
+    margin-left: 0;
+  }
+  .container.store .info .info_search span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .container.store .info .info_search .search_area .select_box {
+    width: 100%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(1) {
+    width: 15%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(2) {
+    width: 18%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(3) {
+    width: 50%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(4) {
+    width: 15%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(5) {
+    display: none;
+  }
+  .container.franchise .sub_content._1 .con_txt {
+    margin-left: 0;
+  }
+  .container.franchise .procedure {
+    padding: 0 5%;
+  }
+  .container.franchise .condition li {
+    width: calc(100% / 2 - 5px);
+    padding: 4%;
+  }
+}
+
+/* 모바일 작은 사이즈 전환 */
+@media all and (max-width: 640px) {
+  .container.store .info select {
+    width: 48%;
+  }
+  .container.store .info input {
+    width: 90%;
+  }
+  .container.store .info .info_search {
+    display: block;
+  }
+  .container.store .info .info_search div {
+    display: block;
+  }
+  .container.store .info .info_search .search_area {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container.store .info .info_search .search_store {
+    width: 100%;
+    float: none;
+  }
+  .container.store .info .info_result .result_table span:nth-child(1) {
+    width: 20%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(2) {
+    width: 21%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(3) {
+    width: 57%;
+  }
+  .container.store .info .info_result .result_table span:nth-child(4) {
+    display: none;
+  }
+  .container.franchise .procedure li {
+    width: 49%;
+  }
+  .container.franchise .procedure li:nth-child(2n-1) {
+    margin-right: 1%;
+  }
+  .container.franchise .procedure li::after {
+    display: none;
+  }
+  .container.franchise .condition li {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,363 @@
+@charset "UTF-8";
+.section.visual {
+  min-width: 1200px;
+  position: relative;
+  /* bx슬라이드 버튼 */
+}
+
+.section.visual::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: url(../img/bg_visual_line.jpg) no-repeat center;
+}
+
+.section.visual .slider .unit {
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section.visual .slider .unit img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: -1;
+}
+
+.section.visual .slider .unit img.m {
+  display: none;
+}
+
+.section.visual .slider .inner .box-msg {
+  float: right;
+  background: rgba(106, 57, 6, 0.8);
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.section.visual .slider .inner .box-msg .box-msg-inner {
+  border: 3px solid #fff;
+  width: 312px;
+  height: 428px;
+  position: relative;
+}
+
+.section.visual .slider .inner .box-msg .box-msg-inner .cont {
+  color: #fff;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 25px;
+  padding: 30px 0 0 100px;
+  line-height: 40px;
+  -webkit-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: tb-rl;
+}
+
+.section.visual .slider .inner .box-msg .box-msg-inner .cont:before {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 43px;
+  background: url(../img/img_stamp_tit.png);
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.section.visual .slider .inner .box-msg .box-msg-inner .cont:after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  left: 20px;
+}
+
+.section.visual .slider .box-msg-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: bold;
+  background: url(../img/bg_visual_bottom_01.png);
+}
+
+.section.visual .slider .box-msg-2 > p {
+  font-size: 40px;
+}
+
+.section.visual .slider .box-msg-2 > p:nth-child(2) {
+  font-size: 27px;
+  margin: 10px 0;
+}
+
+.section.visual .slider .box-msg-2 > p:nth-child(3) {
+  font-size: 21px;
+}
+
+.section.visual .slider .unit-01 .inner .box-msg-inner .cont {
+  padding-left: 130px;
+}
+
+.section.visual .slider .unit-02 .inner .box-msg {
+  background: rgba(0, 119, 55, 0.8);
+}
+
+.section.visual .slider .unit-02 .box-msg-2 {
+  background: url(../img/bg_visual_bottom_02.png);
+}
+
+.section.visual .slider .unit-03 .inner .box-msg {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.section.visual .slider .unit-03 .box-msg-2 {
+  background: url(../img/bg_visual_bottom_03.png);
+}
+
+.section.visual .slider .unit-04 .inner .box-msg {
+  background: rgba(48, 81, 116, 0.8);
+}
+
+.section.visual .slider .unit-04 .box-msg-2 {
+  background: url(../img/bg_visual_bottom_04.png);
+}
+
+.section.visual .bx-controls a {
+  position: absolute;
+  top: 40%;
+  display: block;
+  width: 45px;
+  height: 70px;
+  text-indent: -9999px;
+}
+
+.section.visual .bx-controls .bx-prev {
+  left: 0;
+  background: #fff url(../img/icon_visual_prev.png) no-repeat center center;
+  border-radius: 0 4px 4px 0;
+}
+
+.section.visual .bx-controls .bx-next {
+  right: 0;
+  background: #fff url(../img/icon_visual_next.png) no-repeat center center;
+  border-radius: 4px 0 0 4px;
+}
+
+/* section.banner - 메인 컨텐츠 */
+.section.banner {
+  margin: 50px 0 170px;
+}
+
+.section.banner .inner {
+  height: 706px;
+  position: relative;
+}
+
+.section.banner .inner > ul {
+  height: 706px;
+}
+
+.section.banner .inner > ul > li {
+  border: 1px solid #dcdcdc;
+  padding: 37px 40px 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section.banner .inner > ul > li h2 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 39px;
+  font-weight: normal;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.section.banner .inner > ul > li h2 .txt_green {
+  color: #00561f;
+}
+
+.section.banner .inner > ul > li p {
+  color: #777;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.section.banner .inner > ul > li.unit_1 {
+  float: left;
+  width: calc(35% - 10px);
+  height: 100%;
+  background: url(../img/bg_main_01.png) no-repeat center bottom;
+  margin-right: 20px;
+}
+
+.section.banner .inner > ul > li.unit_2 {
+  background: url(../img/bg_main_02.png) no-repeat;
+}
+
+.section.banner .inner > ul > li.unit_3 {
+  background: url(../img/bg_main_03.png) no-repeat;
+  margin-top: 20px;
+}
+
+.section.banner .inner > ul > li.unit_2, .section.banner .inner > ul > li.unit_3 {
+  float: left;
+  width: calc(65% - 10px);
+  height: calc(50% - 10px);
+  background-position: right center;
+  background-size: 50%;
+}
+
+.section.banner .inner > ul > li.unit_2 > p, .section.banner .inner > ul > li.unit_3 > p {
+  width: 45%;
+}
+
+.section.banner .inner > ul > li .btn_detail {
+  border: 1px solid #00561f;
+  display: block;
+  width: 85px;
+  line-height: 30px;
+  font-size: 11px;
+  color: #00561f;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section.banner .inner > ul > li .btn_detail:after {
+  content: ">";
+  display: inline-block;
+  margin-left: 7px;
+}
+
+/* pc버전 가로스크롤을 없애기 위한 처리 */
+@media all and (max-width: 1200px) {
+  .section.visual {
+    min-width: auto;
+  }
+}
+
+/* 모바일 전환 */
+@media all and (max-width: 1024px) {
+  .section.visual .slider .unit {
+    height: auto;
+  }
+  .section.visual .slider .unit img {
+    position: static;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    width: 100%;
+  }
+  .section.visual .slider .unit img.pc {
+    display: none;
+  }
+  .section.visual .slider .unit img.m {
+    display: block;
+  }
+  .section.visual .slider .inner .box-msg {
+    float: none;
+    margin-top: 0;
+  }
+  .section.visual .slider .inner .box-msg .box-msg-inner {
+    width: auto;
+    height: auto;
+  }
+  .section.visual .slider .inner .box-msg .box-msg-inner .cont {
+    -webkit-writing-mode: initial;
+        -ms-writing-mode: initial;
+            writing-mode: initial;
+    padding: 10px !important;
+    height: 119px;
+  }
+  .section.visual .slider .inner .box-msg .box-msg-inner .cont > br {
+    display: none;
+  }
+  .section.visual .slider .inner .box-msg .box-msg-inner .cont:before {
+    display: none;
+  }
+  .section.visual .slider .inner .box-msg .box-msg-inner .cont::after {
+    right: 10px;
+    left: auto;
+    bottom: 10px;
+  }
+  .section.visual .slider .box-msg-2 {
+    position: static;
+    background: none !important;
+    color: #886138;
+  }
+  .section.visual .slider .box-msg-2 > p {
+    font-size: 32px;
+  }
+  .section.visual .slider .box-msg-2 > p:nth-child(2) {
+    font-size: 22px;
+    margin: 5px 0;
+  }
+  .section.visual .slider .box-msg-2 > p:nth-child(3) {
+    font-size: 15px;
+  }
+  .section.visual .slider .unit-02 .box-msg-2 {
+    color: #007737;
+  }
+  .section.visual .slider .unit-03 .box-msg-2 {
+    color: #333;
+  }
+  .section.visual .slider .unit-04 .box-msg-2 {
+    color: #597490;
+  }
+  .section.visual .section.visual .bx-viewport {
+    height: auto !important;
+  }
+  .section.banner .inner {
+    height: auto;
+    padding: 0 20px;
+  }
+  .section.banner .inner > ul > li {
+    width: 100% !important;
+    position: static;
+  }
+  .section.banner .inner > ul > li.unit_1 {
+    height: 80%;
+  }
+  .section.banner .inner > ul > li.unit_2, .section.banner .inner > ul > li.unit_3 {
+    height: auto;
+  }
+  .section.banner .inner > ul > li + li {
+    margin-top: 20px;
+  }
+}
+
+/* 모바일 작은 사이즈 전환 */
+@media all and (max-width: 640px) {
+  .section.visual .slider .unit img.pc {
+    display: none;
+  }
+  .section.visual .slider .unit img.m {
+    display: block;
+  }
+  .section.visual .slider .box-msg-2 > p {
+    font-size: 25px;
+  }
+  .section.visual .slider .box-msg-2 > p:nth-child(2) {
+    font-size: 17px;
+  }
+  .section.visual .slider .box-msg-2 > p:nth-child(3) {
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .section.visual .bx-controls {
+    display: none;
+  }
+  .section.banner .inner > ul > li h2 {
+    font-size: 20px;
+  }
+  .section.banner .inner > ul > li h2 > br {
+    display: none;
+  }
+}
