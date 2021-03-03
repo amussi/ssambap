@@ -171,39 +171,49 @@
         padding: 37px 40px 28px;
         box-sizing: border-box;
 
-        h2 {
-          font-family: "Nanum Myeongjo", serif;
-          font-size: 39px;
-          font-weight: normal;
-          width: 80%;
-          margin-bottom: 20px;
+        div {
+          height: 100%;
 
-          .txt_green {
-            color: #00561f;
+          h2 {
+            font-family: "Nanum Myeongjo", serif;
+            font-size: 39px;
+            font-weight: normal;
+            width: 80%;
+            margin-bottom: 20px;
+
+            .txt_green {
+              color: #00561f;
+            }
           }
-        }
 
-        p {
-          color: #777;
-          line-height: 24px;
-          font-size: 16px;
+          p {
+            color: #777;
+            line-height: 24px;
+            font-size: 16px;
+          }
         }
 
         &.unit_1 {
           float: left;
           width: calc(35% - 10px);
           height: 100%;
-          background: url(../img/bg_main_01.png) no-repeat center bottom;
           margin-right: 20px;
+          div {
+            background: url(../img/bg_main_01.png) no-repeat center bottom;
+          }
         }
 
         &.unit_2 {
-          background: url(../img/bg_main_02.png) no-repeat;
+          div {
+            background: url(../img/bg_main_02.png) no-repeat;
+          }
         }
 
         &.unit_3 {
-          background: url(../img/bg_main_03.png) no-repeat;
           margin-top: 20px;
+          div {
+            background: url(../img/bg_main_03.png) no-repeat;
+          }
         }
 
         &.unit_2,
@@ -211,11 +221,14 @@
           float: left;
           width: calc(65% - 10px);
           height: calc(50% - 10px);
-          background-position: right center;
-          background-size: 50%;
 
-          > p {
-            width: 45%;
+          div {
+            background-position: right center;
+            background-size: 50%;
+
+            > p {
+              width: 45%;
+            }
           }
         }
 
@@ -359,6 +372,9 @@
           &.unit_2,
           &.unit_3 {
             height: auto;
+            div {
+              background-size: 50% 100%;
+            }
           }
 
           & + li {
@@ -409,11 +425,33 @@
     .inner {
       > ul {
         > li {
-          h2 {
-            font-size: 20px;
+          div {
+            h2 {
+              font-size: 20px;
 
-            > br {
-              display: none;
+              > br {
+                display: none;
+              }
+            }
+          }
+
+          &.unit_1 {
+            height: 90%;
+          }
+          &.unit_2,
+          &.unit_3 {
+            // background-position: center bottom;
+            // background-size: calc(100% - 40px) 50%;
+            // padding-bottom: 250px;
+
+            div {
+              background-size: 100%;
+              background-position: center bottom;
+              padding-bottom: 70%;
+
+              > p {
+                width: auto;
+              }
             }
           }
         }

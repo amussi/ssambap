@@ -1,12 +1,14 @@
 $(function () {
+  let _gnb = $(".header .gnb");
+
   // 모바일 메뉴 열기
   $(".header .btn-gnb-ham").click(function () {
-    $(".header .gnb").addClass("on");
+    _gnb.addClass("on");
   });
 
   // 모바일 메뉴 닫기
   $(".header .btn-gnb-close").click(function () {
-    $(".header .gnb").removeClass("on");
+    _gnb.removeClass("on");
   });
 
   // to_top 화살표 스크롤 위치에 따라 보이기
@@ -38,6 +40,11 @@ $(function () {
   let _con = document.querySelector(".container");
   $(".header .gnb ul > li > a").click(function (event) {
     let _link = event.target.dataset.link;
+
+    // 모바일 화면에서 메뉴 선택 시 메뉴창 닫기
+    if (_gnb.hasClass("on")) {
+      _gnb.removeClass("on");
+    }
 
     fetch("html/" + _link).then(function (response) {
       response.text().then(function (text) {

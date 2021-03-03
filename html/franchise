@@ -1,97 +1,102 @@
-        <div class="sub_visual">
-          <p>창업안내</p>
-        </div>
-        <div class="inner sub">
-          <div class="sub_content _1">
-            <p class="con_tit">창업절차</p>
-            <p class="con_txt">원조쌈밥집 가맹점 창업을 위해서는 창업문의를 통해 본사와 상담 후 가맹지원서를 작성/제출하여야 합니다.</p>
-            <p class="con_txt">타겟 고객층에 적합한 입지를 선정/통보하여 본부의 승인을 받고 임대차/가맹 계약을 체결하여야 하며, 점주 본인이 반드시 교육을 이수해야 합니다.</p>
-            <ul class="procedure">
-              <li>
-                <img src="img/proce_01.png" alt="" />
-                <p>창업설명회 & 개별상담</p>
-                <p>정보공개서 & 점포리스트 수령,<br />창업지원서 작성</p>
-              </li>
-              <li>
-                <img src="img/proce_02.png" alt="" />
-                <p>점포작업 및 본사점주<br />승인</p>
-              </li>
-              <li>
-                <img src="img/proce_03.png" alt="" />
-                <p>점포개설 협의</p>
-              </li>
-              <li>
-                <img src="img/proce_04.png" alt="" />
-                <p>당사 계약 체결</p>
-                <p>임대차 계약 이후<br />본사 가맹 계약 체결</p>
-              </li>
-              <li>
-                <img src="img/proce_05.png" alt="" />
-                <p>인테리어 & 시설공사</p>
-                <p>약 3주~4주 현장 상황에<br />따라 변동가능</p>
-              </li>
-              <li>
-                <img src="img/proce_06.png" alt="" />
-                <p>교육</p>
-                <p>점주 포함 최소 3명 필참<br />(교육기간 1~2주)</p>
-              </li>
-              <li>
-                <img src="img/proce_07.png" alt="" />
-                <p>개점준비 & 가오픈</p>
-              </li>
-              <li>
-                <img src="img/proce_08.png" alt="" />
-                <p>오픈</p>
-              </li>
-              <li>
-                <img src="img/proce_09.png" alt="" />
-                <p>사후관리</p>
-                <p>점검팀 순회</p>
-              </li>
-            </ul>
-          </div>
-          <div class="sub_content _2">
-            <p class="con_tit">창업조건</p>
-            <p class="con_txt">원조쌈밥집은 대패삼겹살과 30여가지의 다양한 야채를 제공하는 쌈밥 전문점으로써, 전 연령층의 대/소 모임에 적합한 건강식 전문점입니다.</p>
-            <p class="con_txt">Office와 주거가 혼합된 입지가 적합하며, 전국 주요도시 기준 출점입니다.</p>
-            <ul class="condition">
-              <li>
-                <img src="img/condi_01.png" alt="" />
-                <p>브랜드컨셉</p>
-                <p>중/저가의 대한민국 대표 건강식 전문점</p>
-                <p>신선하고 푸짐한 쌈과 대패삼겹살, 그리고 10여 가지의 반찬이 제공되는 푸짐한 밥상</p>
-                <p>모든 연령층이 좋아하는 쌈밥 전문점</p>
-              </li>
-              <li>
-                <img src="img/condi_02.png" alt="" />
-                <p>타겟 고객층</p>
-                <p>Well-being Trend에 관심이 많은 중산층 고객</p>
-                <p>남녀노소 전 연령층이 주요고객임</p>
-                <p>가족단위/ 직장회식</p>
-              </li>
-              <li>
-                <img src="img/condi_03.png" alt="" />
-                <p>타겟 입지</p>
-                <p>주거(Apt위주) /Office가 결합되어진 상권</p>
-                <p>대형 집객시설(백화점,쇼핑몰등) 인근의 상권</p>
-                <p>교통 및 주차가 용이한 상권 및 입지</p>
-              </li>
-              <li>
-                <img src="img/condi_04.png" alt="" />
-                <p>필요면적(전용)</p>
-                <p>1층/2층 최소 전용 30평 이상</p>
-              </li>
-              <li>
-                <img src="img/condi_05.png" alt="" />
-                <p>주요메뉴</p>
-                <p>쌈밥정식/차돌쌈밥정식</p>
-                <p>대패삼겹살/해물쌈장</p>
-              </li>
-              <li>
-                <img src="img/condi_06.png" alt="" />
-                <p>창업 가능지역</p>
-                <button>가능지역보기</button>
-              </li>
-            </ul>
-          </div>
-        </div>
+<div class="sub_visual">
+  <p>창업안내</p>
+</div>
+<div class="inner sub">
+  <div class="sub_content _1">
+    <p class="con_tit">창업절차</p>
+    <p class="con_txt">원조쌈밥집 가맹점 창업을 위해서는 창업문의를 통해 본사와 상담 후 가맹지원서를 작성/제출하여야 합니다.</p>
+    <p class="con_txt">타겟 고객층에 적합한 입지를 선정/통보하여 본부의 승인을 받고 임대차/가맹 계약을 체결하여야 하며, 점주 본인이 반드시 교육을 이수해야 합니다.</p>
+    <ul class="procedure">
+      <li>
+        <img src="img/proce_01.png" alt="" />
+        <p>창업설명회 & 개별상담</p>
+        <p>정보공개서 & 점포리스트 수령,<br />창업지원서 작성</p>
+      </li>
+      <li>
+        <img src="img/proce_02.png" alt="" />
+        <p>점포작업 및 본사점주<br />승인</p>
+      </li>
+      <li>
+        <img src="img/proce_03.png" alt="" />
+        <p>점포개설 협의</p>
+      </li>
+      <li>
+        <img src="img/proce_04.png" alt="" />
+        <p>당사 계약 체결</p>
+        <p>임대차 계약 이후<br />본사 가맹 계약 체결</p>
+      </li>
+      <li>
+        <img src="img/proce_05.png" alt="" />
+        <p>인테리어 & 시설공사</p>
+        <p>약 3주~4주 현장 상황에<br />따라 변동가능</p>
+      </li>
+      <li>
+        <img src="img/proce_06.png" alt="" />
+        <p>교육</p>
+        <p>점주 포함 최소 3명 필참<br />(교육기간 1~2주)</p>
+      </li>
+      <li>
+        <img src="img/proce_07.png" alt="" />
+        <p>개점준비 & 가오픈</p>
+      </li>
+      <li>
+        <img src="img/proce_08.png" alt="" />
+        <p>오픈</p>
+      </li>
+      <li>
+        <img src="img/proce_09.png" alt="" />
+        <p>사후관리</p>
+        <p>점검팀 순회</p>
+      </li>
+    </ul>
+  </div>
+  <div class="sub_content _2">
+    <p class="con_tit">창업조건</p>
+    <p class="con_txt">원조쌈밥집은 대패삼겹살과 30여가지의 다양한 야채를 제공하는 쌈밥 전문점으로써, 전 연령층의 대/소 모임에 적합한 건강식 전문점입니다.</p>
+    <p class="con_txt">Office와 주거가 혼합된 입지가 적합하며, 전국 주요도시 기준 출점입니다.</p>
+    <ul class="condition">
+      <li>
+        <img src="img/condi_01.png" alt="" />
+        <p>브랜드컨셉</p>
+        <p>중/저가의 대한민국 대표 건강식 전문점</p>
+        <p>신선하고 푸짐한 쌈과 대패삼겹살, 그리고 10여 가지의 반찬이 제공되는 푸짐한 밥상</p>
+        <p>모든 연령층이 좋아하는 쌈밥 전문점</p>
+      </li>
+      <li>
+        <img src="img/condi_02.png" alt="" />
+        <p>타겟 고객층</p>
+        <p>Well-being Trend에 관심이 많은 중산층 고객</p>
+        <p>남녀노소 전 연령층이 주요고객임</p>
+        <p>가족단위/ 직장회식</p>
+      </li>
+      <li>
+        <img src="img/condi_03.png" alt="" />
+        <p>타겟 입지</p>
+        <p>주거(Apt위주) /Office가 결합되어진 상권</p>
+        <p>대형 집객시설(백화점,쇼핑몰등) 인근의 상권</p>
+        <p>교통 및 주차가 용이한 상권 및 입지</p>
+      </li>
+      <li>
+        <img src="img/condi_04.png" alt="" />
+        <p>필요면적(전용)</p>
+        <p>1층/2층 최소 전용 30평 이상</p>
+      </li>
+      <li>
+        <img src="img/condi_05.png" alt="" />
+        <p>주요메뉴</p>
+        <p>쌈밥정식/차돌쌈밥정식</p>
+        <p>대패삼겹살/해물쌈장</p>
+      </li>
+      <li>
+        <img src="img/condi_06.png" alt="" />
+        <p>창업 가능지역</p>
+        <button>가능지역보기</button>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="bottom_visual">
+  <p>창업문의</p>
+  <p>더본코리아 홈페이지 내 '창업설명회 신청' 또는 '창업문의'를 통해 신청 바랍니다.</p>
+  <p><a>창업문의 바로가기</a></p>
+</div>
